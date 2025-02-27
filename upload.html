@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Build</title>
+    <link rel="stylesheet" href="browse_style.css">
+    <link rel="icon" type="png" href="images/logo-g.png">
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="images/logo-g.png" alt="Logo" class="logo">
+            <h1>Gubami Builds</h1>
+        </div>
+        <nav>
+            <a href="main.html">Home</a>
+            <a href="browse.html">Browse Builds</a>
+            <a href="upload.html">Upload Build</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Share Your Minecraft Creation!</h2>
+
+        <form class="upload-form">
+
+            <label for="title">Build Title:</label>
+            <input type="text" id="title" name="title" placeholder="Enter the build title..." required>
+
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" placeholder="Describe your build..." rows="4" required></textarea>
+
+            <label for="difficulty">Difficulty Level:</label>
+            <select id="difficulty" name="difficulty">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+            </select>
+
+            <label for="image">Build Image:</label>
+            <input type="file" id="image" accept="image/*">
+
+            <label for="download">Schematic Download Link:</label>
+            <input type="url" id="download" name="download" placeholder="Paste the download link here...">
+
+            <button type="submit">Submit Build </button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Minecraft Builds</p>
+    </footer>
+
+</body>
+
+</html>
