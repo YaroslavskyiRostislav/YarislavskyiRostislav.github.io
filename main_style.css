@@ -90,9 +90,8 @@ html, body {
 }
 
 .logo {
-    width: 50px; 
-    height: 60px; 
-    position: absolute; 
+    width: 100px; 
+    height: 200px; 
     left: 0; 
     top: 50%; 
     transform: translateY(-10%);
