@@ -41,7 +41,7 @@ nav {
     display: flex; 
     justify-content: center; 
     gap: 20px; 
-    flex-wrap: nowrap; 
+    flex-wrap: wrap; 
     margin-top: 30px; 
     overflow: hidden;
 }
@@ -94,7 +94,7 @@ html, body {
     position: absolute; 
     left: 0; 
     top: 50%; 
-    transform: translateY(-50%);
+    transform: translateY(-10%);
 }
 
 .about-section {

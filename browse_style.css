@@ -30,7 +30,7 @@ header {
     text-align: center;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    
+    position: relative;
 }
 
 header h1 {
@@ -39,16 +39,15 @@ header h1 {
 
 nav {
     display: flex; 
-    justify-content: center;
+    justify-content: center; 
     gap: 20px; 
-    flex-wrap: nowrap;
+    flex-wrap: wrap; 
     margin-top: 30px; 
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 nav a {
-    font-family: 'Minecraft', sans-serif;
-    background-color: #43a047;
+    background-color: #43a047; 
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
@@ -144,7 +143,7 @@ html, body {
 .logo-container {
     position: relative; 
     text-align: center; 
-    padding: 0 20px; 
+     
 }
 
 .logo {
@@ -153,7 +152,7 @@ html, body {
     position: absolute; 
     left: 0; 
     top: 50%; 
-    transform: translateY(-50%);
+    transform: translateY(-10%);
 }
 
 .build-image {
